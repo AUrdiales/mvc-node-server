@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+</head>
+
+<body>
+
+  {{>header}}
+  <div class="container">
+
+
+    <h1>{{title}}</h1>
+
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s4">
+            <i class=" material-icons prefix">account_circle</i>
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Name</label>
+          </div>
+          <div class="input-field col s4">
+            <i class=" material-icons prefix">supervisor_account</i>
+            <input id="username" type="text" class="validate">
+            <label for="username">Username</label>
+          </div>
+          <div class="input-field col s4">
+            <select>
+             <option value="" disabled selected>Choose your lenguage</option>
+             <option value="1">javascript</option>
+             <option value="2">PHP</option>
+             <option value="3">Python</option>
+           </select>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s4">
+            <i class=" material-icons prefix">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="this needs to be an email!" data-success="correct">email</label>
+          </div>
+          <div class="input-field col s4">
+            <i class=" material-icons prefix">phone</i>
+            <input id="phone" type="tel" class="validate">
+            <label for="phone" data-error="this needs to be a phone number!" data-success="correct">Phone number</label>
+          </div>
+        </div>
+
+        <button class="btn pink accent-4 waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">check</i>
+        </button>
+      </form>
+    </div>
+  </div>
+  {{> footer}}
+</body>
+
+</html>

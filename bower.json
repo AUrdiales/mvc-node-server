@@ -1,0 +1,20 @@
+{
+  "name": "mvc-node-server",
+  "description": "structure app for an mvc node server",
+  "main": "server.js",
+  "authors": [
+    "Alejandro Urdiales"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.2"
+  }
+}

@@ -8,3 +8,9 @@ First of all we need to download Node.js from their webpage, and when we start w
 `npm install`
 
 You will get express, hbs and body-parser.
+
+After this we need to install materialize, the frontend responsive framework with the bower.json with this command.
+
+`bower install`
+
+And now we can start the server and use it as we want as a Model, View, Controller app.
